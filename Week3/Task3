@@ -1,0 +1,13 @@
+//Code By - Saptarshi Das_22BCY10286
+// Week 3 - Task 3_Code:
+
+// Task 3: UserCard Component
+import React, { useState } from 'react';
+function UserCard({ name, email }) {
+  return (
+    <div className="border rounded shadow-lg p-4 bg-white">
+      <h2 className="text-xl font-bold">{name}</h2>
+      <p className="text-gray-600">{email}</p>
+    </div>
+  );
+}
